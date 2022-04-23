@@ -1,18 +1,22 @@
 # crsensor
 
-TODO: Write a description here
-
-## Installation
-
-TODO: Write installation instructions here
-
-## Usage
-
-TODO: Write usage instructions here
+WIP sample to use c bindings with crystal lang
 
 ## Development
 
-TODO: Write development instructions here
+First compile the clib file because that depends on the macos
+```
+    cd clib 
+    make clean
+    make
+    cp binsensor.o ../src/ 
+    cd ..
+    shards run 
+     Dependencies are satisfied
+     Building: crsensor
+     Executing: crsensor 
+     49.875
+```
 
 ## Contributing
 
@@ -24,4 +28,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [leofigy](https://github.com/your-github-user) - creator and maintainer
+- [leofigy](https://github.com/leofigy) - creator and maintainer
