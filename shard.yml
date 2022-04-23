@@ -1,0 +1,13 @@
+name: crsensor
+version: 0.1.0
+
+authors:
+  - leofigy <angel.fig@yandex.com>
+
+targets:
+  crsensor:
+    main: src/crsensor.cr
+
+crystal: 1.4.0
+
+license: MIT
